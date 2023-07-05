@@ -12,6 +12,10 @@ body {
     height: 100vh;                  /*altura*/
     width: 100vw;                  /* largura*/
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
+   background-size: 100%;
+   background-repeat: no-repeat;
+
+   
 }
 
 .caixa-maior {
@@ -32,6 +36,7 @@ input {
     font-size: 20px;
     background-color: #7c7c7c2b;
     width: calc(100% - 100px);
+    color: #ffffff;
 
 }
 
@@ -100,3 +105,28 @@ h2 {
 
 }
 
+@media (max-width:500px){
+        body{
+           background-size: 700%;
+     
+                         
+                   
+        }   
+}
+
+
+@media (max-width:1600px){
+    body{
+        background-size: 200%;
+    }
+}
+
+@media (max-width:800px){
+    body{
+        background-size: 400%;
+     
+        
+    }
+
+}
+ 
